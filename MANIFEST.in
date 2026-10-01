@@ -1,0 +1,2 @@
+include uv.lock
+recursive-include configs *.yaml

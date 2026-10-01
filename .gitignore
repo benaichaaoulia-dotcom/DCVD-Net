@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+build/
+dist/
+*.egg-info/
+
+# Local data, model weights, and generated results — never commit benchmark data or weights.
+data/
+artifacts/
+outputs/
+checkpoints/
+logs/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.safetensors
+*.tflite
+*.log
+*.csv
+*.jsonl
+*.tfevents*
+
+# Experiment trackers and editor state
+wandb/
+runs/
+tensorboard/
+.gemini/
+.cookies/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# OS noise
+.DS_Store
+Thumbs.db
